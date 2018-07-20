@@ -10,7 +10,9 @@ body {
 	color: $text-color;
 	background-color: $background-color;
 }
-
+body .list-headers {
+	color:$anchor-text-color
+}
 
 
 header,
@@ -36,9 +38,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.list-headers, h2, h3, h1 {
-	text-color:$anchor-text-color;
-}
+
 /*** main content list ***/
 .main-list-item {
 	font-weight: bold;
