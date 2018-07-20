@@ -37,7 +37,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.list-headers {
+.list-headers, h2, h3, h1 {
 	text-color:$anchor-text-color;
 /*** main content list ***/
 .main-list-item {
