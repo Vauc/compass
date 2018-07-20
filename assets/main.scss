@@ -6,9 +6,13 @@ $anchor-text-color: #f2771a;
 $background-color: #ffffff;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'roboto', sans-serif;
 	color: $text-color;
 	background-color: $background-color;
+}
+
+.list-headers {
+	text-color:$anchor-text-color;
 }
 
 header,
